@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+:root{
+    --primary-color:
+    
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    background-size: 100%;
+}
+
+nav{
+    height: 10vh;
+    width:100%;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    font-weight: bold;
+    font-size: 20px;
+    padding:20px;
+    cursor: pointer;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+@media (min-width: 200px){
+    nav ul li{
+        font-weight: bold;
+        font-size: 16px;
+        padding:10px;
+        cursor: pointer;
+    }
+}
+
+.homepage{
+    height:90vh;
+    width:100%;
+    background: url(eberhard-grossgasteiger-C6nO21vYw0E-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#fff;
+    /* position: relative;
+    left:3%; */
+}
+.homepage h1{
+    position: relative;
+    top:20vh;
+    left:5vh;
+}
+.homepage p{
+    position: relative;
+    top:24vh;
+    left:5vh;
+}
+.homepage form{
+        position: relative;
+        top:30vh;
+        left:5vh;
+}
+
+/* Loader */
+
+.spinner {
+    margin: 5rem auto;
+    text-align: center;
+  }
+  .spinner svg {
+    height: 6rem;
+    width: 6rem;
+    fill: #000;
+    color: #000000;
+    animation: rotate 2s infinite linear;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
